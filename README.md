@@ -17,12 +17,15 @@ Using the slicing concept rotate the list
 Print both the values it would be interchanged
 ### Step 6: 
 End the program
-```
+```py
+#Program to circulate N values.
+#Developed by : SRIJITH R
+#Reg no : 212221240054
 def circulate():
-    l=[10,20,30,40,50,60]
-    n=int(input())
-    l=l[n:]+l[:n]
-    print("After circulating the values are:",l)
+    b=a[n:]+a[:n]
+    print("After circulating the values are:",b)
+a=eval(input())
+n=int(input())
 ```
 ## Output:
 ![Output](Screenshot.png)
